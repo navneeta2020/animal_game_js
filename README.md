@@ -29,7 +29,7 @@ Computer: Can it swim?
 Computer: For Parrot, is the answer yes or no?
 Human:    No
 Computer: Thanks for helping me to improve!
-
+Computer: 
 Computer: Want to play again?
 Human:    Yes
 Computer: Think of an animal
@@ -54,7 +54,7 @@ Human:    Can it climb trees?
 Computer: For Dog, is the answer yes or no?
 Human:    no
 Computer: Thanks for helping me to improve!
-
+Computer: 
 Computer: Want to play again?
 Human:    yes
 Computer: Think of an animal
@@ -72,7 +72,7 @@ Computer: Is it taller than 1 meter?
 Computer: For a cow, is the answer yes or no?
 Human:    yes
 Computer: Thanks for helping me to improve!
-
+Computer: 
 Computer: Want to play again?
 Human:    yes
 Computer: Think of an animal
@@ -90,7 +90,7 @@ Computer: Is it a pet?
 Computer: For a cat, is the answer yes or no?
 Human:    yes
 Computer: Thanks for helping me to improve!
-
+Computer: 
 Computer: Want to play again?
 Human:    no
 
