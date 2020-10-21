@@ -25,7 +25,7 @@ Computer: Oops - looks like I need to improve.
 Computer: What is the animal?
 Human:    Parrot
 Computer: What question would distinguish between a duck and Parrot?
-Computer: Can it swim?
+Human:    Can it swim?
 Computer: For Parrot, is the answer yes or no?
 Human:    No
 Computer: Thanks for helping me to improve!
@@ -44,7 +44,7 @@ Human:    Yes
 Computer: Think of an animal
 Computer: Can it fly?
 Human:    No
-Computer: Is it A monkey?
+Computer: Is it a monkey?
 Human:    No
 Computer: Oops - looks like I need to improve.
 Computer: What is the animal?
@@ -68,7 +68,7 @@ Computer: Oops - looks like I need to improve.
 Computer: What is the animal?
 Human:    a cow
 Computer: What question would distinguish between Dog and a cow?
-Computer: Is it taller than 1 meter?
+Human:    Is it taller than 1 meter?
 Computer: For a cow, is the answer yes or no?
 Human:    yes
 Computer: Thanks for helping me to improve!
@@ -86,7 +86,7 @@ Computer: Oops - looks like I need to improve.
 Computer: What is the animal?
 Human:    a cat
 Computer: What question would distinguish between A monkey and a cat?
-Computer: Is it a pet?
+Human:    Is it a pet?
 Computer: For a cat, is the answer yes or no?
 Human:    yes
 Computer: Thanks for helping me to improve!
