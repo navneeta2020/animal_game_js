@@ -1,0 +1,19 @@
+{
+  "data": "Can it swim?",
+  "yes": {
+    "data": "duck"
+  },
+  "no": {
+    "data": "Is it green",
+    "yes": {
+      "data": "parrot"
+    },
+    "no": {
+      "data": "can it be used for entertainment?",
+      "yes": {},
+      "no": {
+        "data": "alligator"
+      }
+    }
+  }
+}
