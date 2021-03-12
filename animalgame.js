@@ -2,8 +2,8 @@
 // Node has data and a yes (left) and no (right) answer
 function Node(value, y, n) {
   this.data = value;
-  this.yes = y;
-  this.no = n;
+  this.yes = "y";
+  this.no = "n";
 }
 
 var readlineSync = require('readline-sync');

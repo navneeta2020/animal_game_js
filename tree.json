@@ -3,23 +3,26 @@
   "yes": {
     "data": "is it boat shaped?",
     "yes": {
-      "data": "nothing",
-      "yes": {
-        "data": "fish"
-      },
-      "no": {
-        "data": "fish"
-      }
+      "data": "fish",
+      "yes": "y",
+      "no": "n"
     },
     "no": {
-      "data": "duck"
+      "data": "duck",
+      "yes": "y",
+      "no": "n"
     }
   },
   "no": {
     "data": "is it a pet?",
     "yes": {
-      "data": "dog"
+      "data": "dog",
+      "yes": "y",
+      "no": "n"
     },
-    "no": {}
+    "no": {
+      "yes": "y",
+      "no": "n"
+    }
   }
 }
