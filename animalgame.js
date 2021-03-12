@@ -1,7 +1,7 @@
-
+//animalgame.js
 // Node has data and a yes (left) and no (right) answer
 function Node(value, y, n) {
-  this.value = value;
+  this.data = value;
   this.yes = y;
   this.no = n;
 }
@@ -21,11 +21,11 @@ var playAgain = ["Let's play again!", "That was fun, let's play again!"]
 var playAgainLoad = playAgain[Math.floor(Math.random() * words.length)];
 
 // Read in an animal decision tree
-var tree = fs.readFileSync('tree1.json');
+var tree = fs.readFileSync('tree.json');
 var root = JSON.parse(tree);
-var node;
+var node = "duck";
 
-console.log('Welcome to the animal game!\nThink of an animal,\nthen I will try to guess it!\nIf I do not know know your animal you can help me to improve!\nReady to play?!');
+console.log('Welcome to the animal game!\nThis game is a lot of fun!\nThink of an animal,\nthen I will try to guess it!\nIf I do not know know your animal you can teach me!\nReady to play?!');
 
 // Play the game
 while (askQuestion("Do you want to play?")) {
@@ -44,7 +44,7 @@ function play() {
     }
   }
   // We're at the end, guess!
-  if (!askQuestion("Is it a " + node.data + "?")) {
+  if (!askQuestion("Is it a " + node.value + "?")) {
     // Wrong!
     improve(node);
   } else {
@@ -64,7 +64,7 @@ function improve(node) {
   // The wrong guess
   var guess = node.data;
   // What is it?
-  var answer = readlineSync.question("Ok, what is it? ");
+  var answer = readlineSync.question("Ok, what are you? ");
   // Get a new question?
   var question = readlineSync.question("Suggest a yes/no question to distinguish a " + guess + " from a " + answer + ".\n");
   node.data = question;
@@ -73,8 +73,7 @@ function improve(node) {
     node.yes = new Node(answer);
     node.no = new Node(guess);
     console.log(thank);
-    console.log("Great! Now I know about " + answer + "s !\nThanks for helpin me to improve");
-    
+    console.log ("Great! Now I know about " + answer + "s !");
     console.log(playAgainLoad);
   } else {
     node.yes = new Node(guess);

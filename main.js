@@ -1,13 +1,14 @@
+//main.js
 var readlineSync = require('readline-sync');
 class Node{
     constructor(value){
     this.value = value;
-    this.answer = ""
+    this.answer = "";
     this.yes = null;
     this.no = null;
     }
 }
-let head =null;//= new Node("Think of an animal");
+let head = null;//= new Node("Think of an animal");
 let node1 = new Node("Is it a duck?");
 head = node1;
 //let node2 = new Node(" Oops - looks like I need to improve.");
@@ -25,7 +26,7 @@ function main(){
        
        var userInput = readlineSync.question('Human: ');
        if(userInput == 'Yes'){
-          
+          return;
        } else if( userInput == 'No'){
         if(!current.no){
         
@@ -47,6 +48,6 @@ function main(){
 main();
 
 
-//console.log('Hi ' + userName + '!');
+//console.log('Hi ' + userName + '!');`
 
 
